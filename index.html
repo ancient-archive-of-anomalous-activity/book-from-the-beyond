@@ -14,10 +14,13 @@
 
 <div>
     <h2>Foreword From The Book From The Beyond</h2>
-    <p>The Beasts from the Beyond bleed. And their blood becomes words and drawings. 
-        Humans from here will see the words that are written, and the drawings that are drawn. 
-        And they will ask who wrote them and who drew them. 
-        But nobody wrote them and nobody drew them. 
+    <p>The Beasts from the Beyond bleed. 
+        And their blood becomes words and drawings. 
+        Humans from here will see the blood from over there. 
+        They will read the words that are written, 
+        and see the drawings that are drawn. 
+        And they will ask who wrote them, and who drew them. 
+        But nobody wrote them, and nobody drew them. 
         The Book From The Beyond does not need an author, it simply is. 
         Reading The Book From The Beyond has consequences, 
         the same consequences as touching anything else from the Beyond, 
@@ -28,11 +31,51 @@
 
 <div>
     <ol>
-        <li><a href="anomalous_document_1.html">Anomaly #1</a></li>
-        <li><a href="anomalous_document_2.html">Anomaly #2</a></li>
-        <li><a href="anomalous_document_3.html">Anomaly #3</a></li>
+        <li>
+            <a 
+              href="anomalous_document_1.html"
+              data-link-id="link-1"
+              data-after-text="The 17th Note"
+            >
+              Anomalous Document #1
+            </a>
+        </li>
+        <li>
+            <a 
+              href="anomalous_document_2.html"
+              data-link-id="link-2"
+              data-after-text="File No. #0000"
+            >
+              Anomalous Document #2
+            </a>
+        </li>
+        <li>
+            <a 
+              href="anomalous_document_3.html"
+              data-link-id="link-3"
+              data-after-text="Transcribed Memories Of A Certain Book"
+            >
+              Anomalous Document #3
+            </a>
+        </li>
     </ol>
 </div>
+
+<script>
+  document.querySelectorAll("a[data-link-id]").forEach(link => {
+    const id = link.dataset.linkId;
+    const newText = link.dataset.afterText;
+
+    if (localStorage.getItem(`clicked-${id}`) === "true") {
+      link.textContent = newText;
+    }
+
+    link.addEventListener("click", function () {
+      localStorage.setItem(`clicked-${id}`, "true");
+      this.textContent = newText;
+    });
+  });
+</script>
 
 </body>
 
