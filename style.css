@@ -38,6 +38,7 @@ p {
 /* unvisited link */
 a:link {
   color: #c2c2c2;
+  text-decoration: none;
 }
 
 /* visited link */
@@ -48,8 +49,22 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #ffffff;
-  text-decoration: underline;
   font-weight: bold;
+}
+
+/* selected link */
+a:active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.special a:link {
+  color: #808080;
+  text-decoration: none;
+}
+.special a:hover {
+  color: #b41800;
+  text-decoration: none;
 }
 
 .box {
@@ -67,13 +82,6 @@ a:hover {
   align-items: center;
 }
 
-/* selected link */
-a:active {
-  color: #ffffff;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
 li {
   color: #808080;  
   font-family: 'Courier New', Courier, monospace;
@@ -84,6 +92,7 @@ ol {
     list-style-position: inside;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 div {
