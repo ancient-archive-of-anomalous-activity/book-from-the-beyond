@@ -1,6 +1,6 @@
 /* For Smaller Screens (Default) */
 body {
-  background-color: #292929;
+  background-color: #131313;
   margin: 2% auto;
   text-align: left;
   width: 90%;
@@ -15,24 +15,21 @@ body {
 
 h1 {
   color: #9b9b9b;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
 }
 
 h2 {
   color: #9b9b9b;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
 
 h3 {
   color: #9b9b9b;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 17px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /* unvisited link */
