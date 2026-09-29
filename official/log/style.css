@@ -5,7 +5,7 @@ body {
   text-align: left;
   width: 90%;
   padding: 2%;
-  color: #808080;  
+  color: #33ff00;  
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -14,17 +14,14 @@ body {
 }
 
 h1 {
-  color: #9b9b9b;
   font-size: 25px;
 }
 
 h2 {
-  color: #9b9b9b;
   font-size: 20px;
 }
 
 h3 {
-  color: #9b9b9b;
   font-size: 17px;
 }
 
@@ -34,66 +31,29 @@ p {
 
 /* unvisited link */
 a:link {
-  color: #c2c2c2;
+  color: #4dc52f;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #868686;
+  color: #267712;
 }
 
 /* mouse over link */
 a:hover {
-  color: #ffffff;
+  color: #00f7ff;
   font-weight: bold;
 }
 
 /* selected link */
 a:active {
-  color: #ffffff;
+  color: #00f7ff;
   font-weight: bold;
 }
 
-.special a:link {
-  color: #808080;
-  text-decoration: none;
-}
-.special a:hover {
-  color: #b41800;
-  text-decoration: none;
-}
-
-.box {
-  display: flex;
-  justify-content: space-between;
-}
-.box > div {
-  border: 0px transparent;
-  margin: 1%;
-  padding: 1%;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-li {
-  color: #808080;  
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-}
-
-ol {
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
 div {
-  border: 2px solid #808080;
+  border: 2px solid #33ff00;
   width: 90%;
   padding: 2%;
   margin: 2% auto;
