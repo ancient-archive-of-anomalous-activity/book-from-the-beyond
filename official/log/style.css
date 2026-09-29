@@ -5,7 +5,7 @@ body {
   text-align: left;
   width: 90%;
   padding: 2%;
-  color: #cb4400;  
+  color: #33ff00;  
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -31,29 +31,29 @@ p {
 
 /* unvisited link */
 a:link {
-  color: #ff5500;
+  color: #4dc52f;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #9f3500;
+  color: #267712;
 }
 
 /* mouse over link */
 a:hover {
-  color: #ff8800;
+  color: #00f7ff;
   font-weight: bold;
 }
 
 /* selected link */
 a:active {
-  color: #ff8800;
+  color: #00f7ff;
   font-weight: bold;
 }
 
 div {
-  border: 2px solid #cb4400;
+  border: 2px solid #33ff00;
   width: 90%;
   padding: 2%;
   margin: 2% auto;
