@@ -5,27 +5,12 @@ body {
   text-align: left;
   width: 90%;
   padding: 2%;
-  color: #808080;  
+  color: #aaaaaa;  
   font-family: 'Courier New', Courier, monospace;
 }
 
-.index {
-    width: 90%;
-}
-
 h1 {
-  color: #9b9b9b;
-  font-size: 25px;
-}
-
-h2 {
-  color: #9b9b9b;
-  font-size: 20px;
-}
-
-h3 {
-  color: #9b9b9b;
-  font-size: 17px;
+  font-size: 23px;
 }
 
 p {
@@ -34,7 +19,7 @@ p {
 
 /* unvisited link */
 a:link {
-  color: #c2c2c2;
+  color: #bbbbbb;
   text-decoration: none;
 }
 
@@ -55,45 +40,8 @@ a:active {
   font-weight: bold;
 }
 
-.special a:link {
-  color: #808080;
-  text-decoration: none;
-}
-.special a:hover {
-  color: #b41800;
-  text-decoration: none;
-}
-
-.box {
-  display: flex;
-  justify-content: space-between;
-}
-.box > div {
-  border: 0px transparent;
-  margin: 1%;
-  padding: 1%;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-li {
-  color: #808080;  
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-}
-
-ol {
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
 div {
-  border: 2px solid #808080;
+  background-color: #303030;
   width: 90%;
   padding: 2%;
   margin: 2% auto;
@@ -115,15 +63,7 @@ div {
     }
 
     h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    h3 {
-        font-size: 20px;
+        font-size: 26px;
     }
 
     p {
