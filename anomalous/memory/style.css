@@ -5,12 +5,8 @@ body {
   text-align: left;
   width: 90%;
   padding: 2%;
-  color: #ffc400;  
+  color: #cb3600;  
   font-family: 'Courier New', Courier, monospace;
-}
-
-.index {
-    width: 90%;
 }
 
 h1 {
@@ -31,44 +27,29 @@ p {
 
 /* unvisited link */
 a:link {
-  color: #ffd500;
+  color: #ff4400;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #ca9b00;
+  color: #982900;
 }
 
 /* mouse over link */
 a:hover {
-  color: #fffb00;
+  color: #ffffff;
   font-weight: bold;
 }
 
 /* selected link */
 a:active {
-  color: #fffb00;
+  color: #ffffff;
   font-weight: bold;
 }
 
-.box {
-  display: flex;
-  justify-content: space-between;
-}
-.box > div {
-  border: 0px transparent;
-  margin: 1%;
-  padding: 1%;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 div {
-  border: 2px solid #ffc400;
+  border: 2px solid #cb3600;
   width: 90%;
   padding: 2%;
   margin: 2% auto;
