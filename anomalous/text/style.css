@@ -23,13 +23,13 @@ p {
 
 /* unvisited link */
 a:link {
-  color: #131313;
+  color: #bdbdbd;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #303030;
+  color: #909090;
 }
 
 /* mouse over link */
