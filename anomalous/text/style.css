@@ -1,11 +1,11 @@
 /* For Smaller Screens (Default) */
 body {
-  background-color: #131313;
+  background-color: #303030;
   margin: 2% auto;
   text-align: left;
   width: 90%;
   padding: 2%;
-  color: #131313;  
+  color: #777777;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -45,7 +45,7 @@ a:active {
 }
 
 div {
-  background-color: #b35900;
+  background-color: #131313;
   width: 90%;
   padding: 2%;
   margin: 2% auto;
