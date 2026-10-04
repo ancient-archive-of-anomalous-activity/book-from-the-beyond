@@ -99,6 +99,32 @@ div {
   margin: 2% auto;
 }
 
+/* For Smaller Screens */
+@media screen and (max-width: 600px) and (max-height: 800px) {
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    li {
+      color: #808080;  
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 11px;
+    }
+}    
+
 /* For Larger Screens */
 @media screen and (min-width: 1200px) and (min-height: 900px) {
     body {
@@ -130,4 +156,3 @@ div {
         font-size: 15px;
     }
 }
-
