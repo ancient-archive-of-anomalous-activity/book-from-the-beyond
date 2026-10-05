@@ -1,0 +1,158 @@
+/* For Smaller Screens (Default) */
+body {
+  background-color: #131313;
+  margin: 2% auto;
+  text-align: left;
+  width: 90%;
+  padding: 2%;
+  color: #808080;  
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.index {
+    width: 90%;
+}
+
+h1 {
+  color: #9b9b9b;
+  font-size: 25px;
+}
+
+h2 {
+  color: #9b9b9b;
+  font-size: 20px;
+}
+
+h3 {
+  color: #9b9b9b;
+  font-size: 17px;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* unvisited link */
+a:link {
+  color: #c2c2c2;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #868686;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* selected link */
+a:active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.special a:link {
+  color: #808080;
+  text-decoration: none;
+}
+.special a:hover {
+  color: #b41800;
+  text-decoration: none;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.box > div {
+  border: 0px transparent;
+  margin: 1%;
+  padding: 1%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  color: #808080;  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+ol {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div {
+  border: 2px solid #808080;
+  width: 90%;
+  padding: 2%;
+  margin: 2% auto;
+}
+
+/* For Smaller Screens */
+@media screen and (max-width: 600px) and (max-height: 800px) {
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    li {
+      color: #808080;  
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 11px;
+    }
+}    
+
+/* For Larger Screens */
+@media screen and (min-width: 1200px) and (min-height: 900px) {
+    body {
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-bottom: 10%;
+        width: 70%;
+        padding: 1%;
+    }
+
+    .index {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
