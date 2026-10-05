@@ -5,31 +5,13 @@ body {
   text-align: left;
   width: 90%;
   padding: 2%;
-  color: #808080;  
+  color: #808080;
+  font-size: 15;  
   font-family: 'Courier New', Courier, monospace;
 }
 
 .index {
     width: 90%;
-}
-
-h1 {
-  color: #9b9b9b;
-  font-size: 25px;
-}
-
-h2 {
-  color: #9b9b9b;
-  font-size: 20px;
-}
-
-h3 {
-  color: #9b9b9b;
-  font-size: 17px;
-}
-
-p {
-  font-size: 15px;
 }
 
 /* unvisited link */
@@ -51,7 +33,6 @@ a:hover {
 }
 
 div {
-  border: transparent;
   width: 90%;
   padding: 2%;
   margin: 2% auto;
