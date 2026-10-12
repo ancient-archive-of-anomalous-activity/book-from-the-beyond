@@ -21,6 +21,13 @@ p {
   font-size: 15px;
 }
 
+img {
+  border: 3px solid #000000;
+  border-radius: 15px;
+  max-width: 60%;
+  height: auto;
+}
+
 /* unvisited link */
 a:link {
   color: #bbbbbb;
