@@ -14,6 +14,16 @@ body {
     width: 90%;
 }
 
+ ::-moz-selection { /* Code for Firefox */
+  color: #131313;
+  background: #aaaaaa;
+}
+
+::selection {
+  color: #131313;
+  background: #aaaaaa;
+}
+
 /* unvisited link */
 a:link {
   color: #808080;

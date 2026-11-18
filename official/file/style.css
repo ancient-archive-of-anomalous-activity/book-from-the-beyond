@@ -21,6 +21,16 @@ p {
   font-size: 15px;
 }
 
+ ::-moz-selection { /* Code for Firefox */
+  color: #131313;
+  background: #aaaaaa;
+}
+
+::selection {
+  color: #131313;
+  background: #aaaaaa;
+}
+
 img {
   border: 3px solid #000000;
   border-radius: 15px;
