@@ -25,6 +25,16 @@ p {
   font-size: 15px;
 }
 
+ ::-moz-selection { /* Code for Firefox */
+  color: #131313;
+  background: #cb3600;
+}
+
+::selection {
+  color: #131313;
+  background: #cb3600;
+}
+
 /* unvisited link */
 a:link {
   color: #ff4400;
